@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  genere: MyString
+  age: 1
+  start_trip: 2017-11-27 19:30:35
+  end_trip: 2017-11-27 19:30:35
+  origin_id: 1
+  destination_id: 1
+
+two:
+  genere: MyString
+  age: 1
+  start_trip: 2017-11-27 19:30:35
+  end_trip: 2017-11-27 19:30:35
+  origin_id: 1
+  destination_id: 1
