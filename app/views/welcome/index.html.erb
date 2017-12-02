@@ -1,2 +1,29 @@
-<h1>Welcome#index</h1>
-<p>Find me in app/views/welcome/index.html.erb</p>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ALMAMOV</title>
+        <link rel="stylesheet" href="asset/style/index.css" />
+        <script type="text/javascript" src="jquery-1.12.0.min.js"></script>
+        <script type="text/javascript" src="dist/Chart.bundle.min.js"></script>
+        <script type="text/javascript" src="asset/js/index.js" ></script>        	
+    </head>
+    <body>
+        <div class="options">
+             <ul>
+              <br />
+              <li><h1 style="none"> &nbsp &nbsp </h1></li>
+              <li><a id="botton" href="#">Log in</a></li>
+              <li><h1 style="none"> &nbsp &nbsp </h1></li>
+              <li><a id="botton" href="#">Sign up</a></li>
+              <br />
+            </ul> 
+        </div>
+        <br />
+        <div class="title" >
+            <h1 class="t_title">ALMAMOV</h1>
+        </div>
+        <div class="graph" id="canvas-container">
+		      <canvas class="sub_graph" id="chart" width="100" height="50"></canvas>
+	      </div>
+    </body>
+</html>
